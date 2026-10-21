@@ -1,0 +1,32 @@
+Question ID: 1704033
+The nut on a ½ in diameter UNF grade 8 steel bolt is tightened 1.5 rotations from an initial un-stretched grip length of 20 in. What value is closest to the stress in the nominal area of the bolt? Ignore the stress concentrations for this calculation. Assume that E = 29,000,000 psi.
+OA. 85,000 psi
+OB. 109,000 psi
+OC. 120,000 psi
+OD. 168,000 psi
+
+Question ID: 1707056
+A 3/4-in UNC bolt is lubricated and torqued to 45 ft-lb. The bolt is then stressed in tension by an 8,000-lb load. If sensors on the bolt grip measure the bolt load as 9,000 lbf, which of the following is most nearly the joint coefficient?
+OA. 1/8
+OB. 1/4
+OC. 3/8
+OD. 5/8
+
+Question ID: 1707059
+A polyimide-based adhesive is used to join two sheets of sheet aluminum. The joint has an overlap of 0.5 in. Assuming a minimum lap-shear strength, which of the following is the maximum shear stress per unit width that the joint can sustain?
+A. 500 lb/in
+B. 1,000 lb/in
+OC. 1,500 lb/in
+D. 2,000 lb/in
+
+Question ID: 20251042
+Which of the following is a key advantage of using adhesives in mechanical design?
+OA. High temperature resistance
+OB. Ability to bond dissimilar materials
+OC. Permanent connection
+OD. Ability to withstand high shear forces
+
+Question ID: 20251053
+True or False: Dowel pins are commonly used in mechanical assemblies to allow easy disassembly of components.
+A. True
+B. False

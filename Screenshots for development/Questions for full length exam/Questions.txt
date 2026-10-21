@@ -1,0 +1,636 @@
+540 minutes timed
+
+Question ID: 01704041
+A hollow rod has an inner radius,r₁, and an outer radius,r2, If r_{1} = r_{2}/2 what percentage of torque can the shaft carry in comparison to a solid shaft with the same outer diameter?
+Ο Α. 27%
+Ο Β. 55%
+OC. 78%
+OD. 94%
+
+Question ID: 1701011
+A pipe company has a process producing pipe couplings. Couplings must meet the following specification: Diameter 0.75 in +/- 0.005 in. Five samples of five couplings each are taken from the production line and the results are shown below. Determine how many samples fall outside the control limits of the average chart.
+
+insert question 2 picture here
+
+OA. 0
+OB. 1
+OC. 2
+OD. 3
+
+Question ID: 1701013
+For the sample data set shown, the median and standard deviation are, most nearly:
+
+insert problem 3 picture here
+
+Ο Α. 5.164; 0.0792
+ΟΒ. 5.136; 0.0776
+OC. 5.136; 0.0792
+OD. 5.164; 0.0776
+
+Question ID: 1701025
+Failure will occur when a principal stress equals the strength of the material when using which of the following?
+A. Coulomb-Mohr Theory
+OB. Distortion-Energy Theory
+OC. Maximum-Shear-Stress Theory
+OD. Maximum-Normal-Stress Theory
+
+Question ID: 1703013
+A steel bar with a diameter of 2.0 in and a length of 18 in is mounted between two rigid walls as shown below. The coefficient of thermal expansion is 6.5 * 10 ^ - 6 in/(inx °F) and E = 30 * 10 ^ 6 * psi The bar was installed at a temperature of 68° F. The temperature of the bar is raised to 350° F. The stress in the steel bar at the higher temperature is most nearly:
+
+insert problem 5 picture here
+
+OA. 55,000 psi
+B. 65,000 psi
+OC. 75,000 psi
+OD. 85,000 psi
+
+Question ID: 1703028
+An aluminum strut is positioned between two rigid walls at 300°F. As the system cools to 70°F, what is the stress in the strut?
+A. 30 ksi (tensile)
+OB. 30 ksi (compressive)
+OC. 54 ksi (tensile)
+OD. 54 ksi (compressive)
+
+Question ID: 1703034
+Which of the following describes the property of a material that corresponds with a material's ability to withstand environmental attack and decay?
+A. Corrosion resistance
+OB. Capacitance
+OC. Thermal conductivity
+OD. Density
+
+Question ID: 1703035
+Which of the following describes the property of a material that corresponds with susceptibility to being plastically deformed by applying pressure?
+OA. Toughness
+OB. Strength
+OC. Resilience
+OD. Malleability
+
+Question ID: 1703036
+Which type of material is able to absorb and release strain energy without permanent deformation?
+A. Resilient
+OB. Ductile
+OC. Tough
+OD. Brittle
+
+Question ID: 1704005
+A long column that is fixed to the ceiling is pinned at the ground in a way that restricts rotation of the column at the ground about the y axis, while there is free rotation about the pin and x axis. What is the ratio of the cross-sectional dimensions b:h that would satisfy the condition that a critical load P would theoretically allow for both buckling in the x or buckling in the y with the same magnitude of force?
+
+insert problem 10 picture here
+
+OA 1.2
+OB. 1.4
+OC. 1.6
+OD. 2.2
+
+Question ID: 1704014
+Estimate the Goodman equivalent stress for a rod experiencing an alternating stress state of Omax = 20 ksi and min = -10 ksi. Assume the rod is made of A572 steel ( S_{y} = 50 ksi S_{u} = 65 ksi) and there is a stress concentration factor of K_{f} = 1.5
+A. 15.0 ksi
+B. 17.5 ksi
+OC. 25.4 ksi
+OD. 45 ksi
+
+Question ID: 1704030
+A rod of A36 steel is placed in tension. The rod is stretched until it reaches plastic deformation. If the rod was originally 5.00 in in length, what value is closest to the percent elongation just prior to yielding?
+Ο Α. 0.05%
+B. 0.12%
+OC. 0.5%
+OD. 1%
+
+Question ID: 1704032
+A steel cable is attached to a wall and then run over a pulley, as shown in Figure 1. The length of the cable from the wall to the top of the pulley is 25 ft. The diameter of the pull is 5 in. The cable diameter is 0.125 in. The weight is 300 lbf. What value is closest to the rotation of the pulley in degrees due to cable elongation?
+Assume that E29,000,000 psi.
+
+insert problem 13 picture here
+
+OA. 2
+OB. 4
+OC. 6
+OD. 8
+
+Question ID: 1704034
+What value is closest to the force in Ibf required to shear an ASTM A449 bolt that is 1 1/8 in in diameter through the unthreaded portion of the bolt? Assume that the max shear stress is 60% of the tensile strength.
+Ο Α. 62,622
+Ο Β. 71,568
+OC. 104,370
+OD. 119,280
+
+Question ID: 1704035
+A shaft transfers power from a motor to a gear-set. An engineer is concerned about the shear strength of the shaft. Which modifications, holding all else constant, would increase the safety factor of the design? Select all that apply.
+☐ Decrease the applied torque
+☐ Decrease the shaft radius
+☐ Make the shaft hollow, with the same area
+☐ Change the shaft to be square section of same area
+
+Question ID: 1704042
+A hollow cylinder has a length of 6 in. The inner and outer radius are 1.5 in and 3 in, respectively, and it is twisted by a torque of 2,000 lb-in. Given shear modulus G = 11000 psi, what is the angle of twist?
+Ο Α. 0.0091°
+Ο Β. 0.091°
+OC. 0.523°
+OD. 1.646°
+
+Question ID: 1704043
+A simply supported beam with a cross-section shows a concentrated load F = 10 kN at its center. What is most nearly the maximum bending stress in the beam?
+
+insert problem 17 picture here
+
+OA. 2,500 kPa
+OB. 2,800 kPa
+OC. 3,200 kPa
+D. 3,500 kPa
+
+Question ID: 1705017
+A mass and spring are hung from a base plate that can induce vibration. The mass is 6 kg and the spring has a constant of 400 N/m. If the frequency ratio of the system is 0.65 when the base induces a vibration, the maximum amplitude of the force transmitted to the weight is most nearly:
+Ο Α. 33 Ν.
+Ο Β. 102 Ν.
+O C. 63 N.
+OD. 85 N.
+
+Question ID: 1705025
+
+\begin{question}
+What is the natural frequency, $\omega$, of a torsional vibrating system?
+\end{question}
+
+\begin{options}
+    \begin{enumerate}
+        \item[$\bigcirc$ A.] $\dfrac{k}{I}$
+        \item[$\bigcirc$ B.] $\sqrt{\dfrac{k}{I}}$
+        \item[$\bigcirc$ C.] $\dfrac{I}{k}$
+        \item[$\bigcirc$ D.] $\sqrt{\dfrac{I}{k}}$
+    \end{enumerate}
+\end{options}
+
+Question ID: 1705026
+A hollow stainless-steel shaft (G = 11.5 * 10 ^ 6 * psi) is under torsion. The shaft is 100 in long, has an inner diameter of 1 in, and has a wall thickness of 0.0625 in. What is the equivalent spring constant of the shaft?
+OA. 6,794 lb/in
+OB. 7,745 lb/in
+OC. 5,752 lb/in
+D. 8,153 lb/in
+
+Question ID: 1705027
+A mass of 0.025 kg is hanging from a spring. The spring constant is 0.44 N/m. If the mass is pulled down and released, what will be the period of oscillation?
+A. 0.668 sec
+B. 0.357 sec
+OC. 1.5 sec
+OD. 2.03 sec
+
+Question ID: 1705028
+A spring has K = 10kN / m and supports a block of mass of 5 kg. The mass is pulled down 8 mm and then released. What is the period of vibration?
+O A. 7.1 sec
+OB. 1.4 sec
+OC. 0.14 sec
+OD. 44.72 sec
+
+Question ID: 1706008
+A 10-hp motor running at 3,000 rpm drives a single-plate clutch with an outside diameter of 10 in and an inside diameter of 2 in. The plate has friction material on both sides, and the friction coefficient is 0.45. Assuming uniform wear, the axial clamping force required to transmit the motor's full power is most nearly:
+A. 50 lbf
+OB. 75 lbf
+OC. 100 lbf
+OD. 150 lbf
+
+Question ID: 1706011
+A journal bearing has a journal diameter of 6 in and a length of 5 in. The bushing hole diameter is 6.01 in. The lubricant is SAE grade 60 oil at 150° F. The shaft is carrying 1,800 lbf and rotates at 1,000 rpm. The coefficient of friction is most nearly which of the following?
+Ο Α. 0.001
+Ο Β. 0.016
+OC. 0.033
+OD. 0.065
+
+Question ID: 1706025
+A square key with side dimensions of 0.3 in and a length of 2 in is to be used to key a gear onto a 1.5-in-diameter shaft. If the shaft and key are made of the same material, having an allowable shear stress of 9,500 psi, determine the torque that is transmitted by the key.
+OA. 4,275 in-lb
+OB. 4,340 in-lb
+OC. 6,550 in-lb
+OD. 3,020 in-lb
+
+Question ID: 1706031
+A 2-4 Acme-threaded power screw is operated with the following parameters: d_major = 2.00 in, d_minor = 1.72 in, number of starts = 1, and lead = 0.25 in/rev. What is the minimum coefficient of friction for this power screw to be self-locking?
+Ο Α. 0.05
+OB. 0.10
+OC. 0.15
+OD. 0.30
+
+Question ID: 1706034
+An electrical motor rated for 20 amps and 240 volts has an electrical motor efficiency of 85%. The mechanical motor output in watts is most nearly:
+A. 2000 W.
+B. 3800 W.
+OC. 4080 W.
+O D. 4800 W.
+
+Question ID: 1706036
+A direct current 5-hp motor with 95% efficiency draws 10 amps at full load. The motor voltage is most nearly:
+A. 120 volts.
+B. 180 volts.
+C. 300 volts.
+OD. 390 volts.
+
+Question ID: 1706037
+A two-sided clutch must be designed to fit inside a 10 in diameter housing. The inner diameter of the clutch is limited to 3 in. The clutch axial force is applied on each side by six springs that have an equivalent spring constant of 300 lb/in. When the clutch is engaged, the springs are compressed 0.6 in from their free length.
+What value is closest to the maximum torque that the clutch can support? Assume uniform pressure and a friction coefficient of 0.3 for the clutch plate.
+A. 190 in-lb
+B. 320 in-lb
+OC 380 in-lb
+D. 641 in-lb
+
+Question ID: 1706038
+The brake caliper shown in Figure 1 must generate sufficient braking torque to resist a 55 ft-lb torque at one wheel. The brake disk has an inner friction radius of 4 in. and an outer friction radius of 9 in. The brake lining has a coefficient of friction of 0.42, and uniform wear is assumed.
+A single brake pad contacts approximately one-quarter of the circumference of the brake disk. This angular coverage does not affect the torque equation; it is provided only to illustrate the pad geometry. The caliper applies the required normal force through two 1.5-in.-diameter hydraulic pistons acting on the brake pad.
+Determine the hydraulic pressure required in the pistons to produce the braking torque.
+
+insert problem 30 picture here
+
+OA. 137 psi
+OB. 70 psi
+OC. 140 psi
+OD. 280 psi
+
+Question ID: 1706041
+A 10 hp motor running at 3300 rpm has a 50-tooth gear with a 5 in pitch diameter and ½ in width mounted to the output shaft. Assuming a Lewis form factor of 0.4, what value is closest to the maximum bending stress in the gear tooth?
+OA. 1,000 psi
+OB. 1,900 psi
+O C. 3,800 psi
+OD. 4,500 psi
+
+Question ID: 1706044
+A steel shaft with a diameter of 4 inches has a yield stress of 56,000 psi. A key will be fabricated from a 7/8-inch square steel stock, which has a yield stress of 75,000 psi. The allowable shear stress is specified as half of the material's yield stress. What is the necessary length of the key to ensure its strength matches that of the shaft? Use a safety factor of 1.2 (in shear)?
+OA. 3.7 in
+OB. 6.5 in
+OC. 8.9 in
+D. 9.8 in
+
+Question ID: 1706057
+A small sprocket with 13 teeth drives a 1-in Type A roller chain at 150 rpm. What is the horsepower rating for the roller chain?
+Ο Α. 5.8
+ΟΒ. 7.52
+OC. 5.32
+OD. 6.77
+
+Question ID: 1706058
+Steam at a pressure of 2.25 N/m² is generated in a thin-walled cylindrical pressure vessel. The diameter of the vessel is 1.6 m. If the circumferential stress is 56 Pa, then the minimum wall thickness is:
+OA. 12 mm
+OB. 25 mm.
+OC. 33 mm
+OD. 41 mm
+
+Question ID: 1706060
+A pipe delivers 3,600 m³ of steam per hour at a velocity of 40 m/s. The inside diameter of pipe is most nearly:
+A. 150 mm
+B. 180 mm
+OC. 190 mm
+D. 210 mm
+
+Question ID: 1706061
+A helical spring with square and ground ends has 19 coils and a shear modulus of elasticity of 11.5 * 10 ^ 6 * psi If the outside diameter of the spring is 3.9 in and the wire diameter is 0.35 in, how much deflection will the spring have under a load of 85 lb?
+OA. 4.8 in
+OB. 2.3 in
+OC. 3 in
+OD. 3.6 in
+
+Question ID: 1706069
+A 120° journal bearing has a 7-in diameter, an 11-in length, and a radial clearance of 0.006 in. The lubricating fluid is SAE 10 oil with a viscosity of 2.2 × 10-6 lb-s/in², and the bearing carries a load of 72 psi at 1,100 rpm. What is the bearing frictional torque using Petroff's equation?
+A. 112 in-lbf
+OB. 145 in-lbf
+OC. 125 in-lbf
+OD. 131 in-lbf
+
+Question ID: 1706070
+A solid steel shaft has a diameter of 1 in and is loaded with a torque of 10 in-lb. Find the shear stress in the outer surface of the shaft.
+OA. 51.02 lb/in²
+B. 61.05 lb/in²
+OC. 47.53 lb/in²
+OD. 57.70 lb/in²
+
+Question ID: 1706071
+A steel shaft has an outside diameter of 1 in and an inside diameter of 0.5 in. The shaft is loaded with a torque of 10 in-lb. Find the shear stress in the outer surface of the shaft.
+A. 51.02 lb/in²
+OB. 54.35 lb/in²
+OC. 47.53 lb/in²
+OD. 57.70 lb/in²
+
+Question ID: 1706074
+A 1-in diameter solid brass shaft that is 1 ft in length (E= 16 * 10 ^ 6 * lbf / i n2 v = 0.36 ) is spinning at 120 rpm and transmits 3 hp. What is the angle of twist in the shaft (in radians)?
+Ο Α. 0.033
+Ο Β. 0.045
+OC. 0.081
+OD. 0.027
+
+Question ID: 1706075
+A 1-ft long hollow brass shaft with an outside diameter of 1 in and an inside diameter of 0.5 in (E = 16 × 106 lbf/in²; v = 0.36) is spinning at 120 rpm and transmits 3 hp. What is the angle of twist in the shaft (in radians)?
+Ο Α. 0.035
+Ο Β. 0.033
+OC. 0.042
+OD. 0.027
+
+Question ID: 1706084
+A tank car pressure relief valve uses a helical spring with squared and ground ends. The special spring is made of 3-mm diameter wire that has a shear modulus f * 2.1 * 10 ^ 9 * N / m * m ^ 2 The spring index is 8, and the maximum spring deflection is 15 mm. The maximum operating force is 3.9 * 10 ^ 6 * N How many total coils must the
+spring have?
+OA. 6
+OB. 7
+OC. 8
+OD. 9
+
+Question ID: 1707005
+Two members are clamped by a single M10 fully threaded bolt. The clamped length is 50 mm. The bolt is torqued to 75% of its proof strength, which results in a preload of 50 kN. The tensile area of the bolt is 58 mm², and the modulus of elasticity of the bolt and member materials are 200 GPa. The stiffness of the members is 1.5 times the
+stiffness of the bolt. A load of 115.5 kN is applied to the clamped parts in a direction that directly opposes the clamp load of the bolt. Find the load in the clamped members in this scenario.
+OA. ON
+OB. -20 KN
+OC. 40 kN
+OD. 100 kN
+
+Question ID: 1707009
+A small pressure vessel is created by fillet welding class 300 slip-on flanges, having a bore of 4.57 in, onto a NPS 4 schedule 40 steel pipe and sealing the ends with class 300 blind flanges as shown in the figure below. All pipe and flanges are made from CSA 2.245.1 grade 359 steel (minimum yield stress of 52.1 ksi and ultimate stress of 66.0 ksi). The flanges have eight 0.75-in UNC studs equally spaced around the circumference of the flanges. What is the minimum leg length of an equal-length fillet weld if the shear stress in the weld is not to exceed 40% of yield, assuming an internal pressure of 750 psi and that the welds are made using an E6018 electrode?
+
+insert problem 44 picture here
+
+OA. 0.035 in
+B. 0.044 in
+OC. 0,049 in
+OD. 0.062 in
+
+Question ID: 1707018
+Which of the following is not a common failure mode of a riveted joint?
+A. Bearing/crushing
+B. Delamination
+OC. Shear tear-out
+OD. Tensile rupture
+
+Question ID: 1707020
+A bolted joint consists of twelve A325 3/4-10-UNC-2A bolts evenly spaced in a 12-in diameter circle, as illustrated. It is eccentrically loaded with a vertical 10,000-lbf load located 5 ft from the center of the bolt group. What is the safety factor relative to yield strength in shear? Use the elastic method.
+
+insert problem 46 picture here
+
+ΟΑ. 1.9
+OB. 4.0
+OC. 8.2
+OD. 15.4
+
+Question ID: 1707023
+The head of an SAE bolt has 6 radial tics going 360° around the head. What is the grade of the bolt?
+A. Grade 2
+B. Grade 5
+OC. Grade 6
+OD. Grade 8
+
+Question ID: 1707033
+As shown in Figure 1, a 4in wide steel plate is adhesively bonded to a steel substrate. Urethane glue with the highest possible peel strength is used for the bond. What is the maximum distributed load F that the adhesive can withstand before peeling? (Ignore the moment effect)
+
+insert problem 48 picture here
+
+A. 1.5 lbf/in
+B. 8 lbf/in
+OC. 10 lbf in
+D. 50 lbf/in
+
+Question ID: 1707036
+Two solid steel shafts, each with a diameter of 2.5 in, are connected using a cast-iron flanged coupling. The shaft assembly is subjected to a transmitted torque of 720 in-lb.
+The coupling consists of two flanges fastened together by five bolts, equally spaced on a 4-inch bolt circle.
+Assuming the allowable (design) shear stress for the bolts is 8,000 psi, determine the required minimum bolt diameter to safely transmit the applied torque.
+A. 0.125 in
+B. 0.327 in
+OC. 0.107 in
+OD. 0.053 in
+
+Question ID: 1707041
+A 0.25-in fillet weld is used to hold two 6-in wide plates together. If a force of 120 lb is applied to the plates as shown in the figure below, which value is closest to the shear stress in the weld?
+
+insert problem 50 picture here
+
+OA. 113 lb/in²
+OB. 120 lb/in²
+OC. 108 lb/in²
+OD. 117 lb/in²
+
+Question ID: 1707049
+A steel plate carries an 8,000-1b load and is held in place by four 0.5-in diameter bolts as shown in the figure below. Find the maximum bolt shear stress.
+
+insert problem 51 picture here
+
+O A. 68,663 psi
+OB. 78,090 psi
+OC. 57,781 psi
+O D. 42,069 psi
+
+Question ID: 1707051
+A lubricated 9/16-in UNF A36 bolt will be reused when the equipment reaches the client's location. Which torque will be required for assembly on the assembly shop floor?
+A. 271 in x lbf
+OB. 537 in x lbf
+C. 303 in x lbf
+OD. 471 in x lbf
+
+Question ID: 1708002
+AGMA is the trade group of companies involving power transmission components. What does the acronym AGMA stands for?
+OA. Assistant General Manager for Administration
+OB. Association of Greater Manchester Authorities
+OC. American Gear Manufacturers Association
+OD. American Guild of Musical Artists
+
+Question ID: 1708006
+Given the chart below, which quenching media material should be used to quickly quench a high-carbon steel from austenite to martensite?
+
+insert problem 54 picture here
+
+OA. Air
+OB. Oil
+OC. Water
+OD. Brine
+
+Question ID: 1708010
+Which of the following processes is not a form of arc welding?
+OA. Oxyacetylene welding
+OB. MIG welding
+OC. TIG welding
+OD. SMA welding
+
+Question ID: 1708013
+For the following typical fatigue test plot (S-N curve), which point marks the endurance limit (Se') of the material?
+
+insert problem 56 picture here
+
+A. Point 1
+OB. Point 2
+OC. Point 3
+OD. Point 4
+
+Question ID: 1708015
+Which of the following elements cannot be used as a sacrificial anode in a cast iron boiler system to prevent corrosion in the cast iron boiler tank?
+A. Magnesium
+OB. Zinc
+OC. Cadmium
+OD. Copper
+
+Question ID: 1708016
+Match each reaction type with the start and result phases:
+
+insert problem 58 picture here
+
+OA. A4, B3, C2, D-1
+OB. A3, B4, C2, D-1
+OC. A4, B→ 3, C → 1, D-2
+OD. A4, B2, C3, D→1
+
+Question ID: 1708017
+At what percent-weight carbon and temperature is Iron-Iron carbide completely liquid?
+A. 1% carbon and 1200°C
+B. 1.5% carbon and 1400°C
+OC. 4% carbon and 1200°C
+D. 4% carbon and 1000°C
+
+Question ID: 1708020
+What material test/mechanical property would be best suited for selecting a steel for Armor plate is that is designed to be resistant to penetration from projectiles:
+OA. Fatigue Life
+OB. Creep resisitance
+OC. Conductivity
+OD. Hardness
+
+Question ID: 1708022
+A company needs to use a wide-flange beam in an area that is prone to corrosion. It is decided that aluminum of grade 6061-T6 will be used. The dimension of the beam will be identical to a W24 × 68 beam. How much will the new beam weigh if a 7 ft beam is to be used?
+OA. 120 lb.
+OB. 165 lb.
+O C. 250 lb.
+OD. 476 lb.
+
+Question ID: 1708025
+A piston is held on to a connecting rod with a wrist pin. The hole in the connecting rod is to be 10 mm in diameter nominally. Assuming a locational clearance fit is required, what is the maximum radial clearance between the hole and shaft?
+A. 0.014 mm
+B. 0.035 mm
+OC. 0.012 mm
+D. 0.008 mm
+
+Question ID: 1708031
+Generally speaking, Finite Element Stress analysis requires that materials be isotropic to best line up with the evaluation because
+OA. these are the only materials used in fields that design using FEA.
+OB. calculations of internal stresses are simplified when a constant spring constant is used between nodes.
+OC. isotropic materials are the best conductors of heat
+OD. polytropic materials do not exist.
+
+Question ID: 1708033
+Surface hardening is used instead of through hardening on steel parts to:
+A. have parts weigh less
+B. increase the magnetism of the part.
+C. hold tighter part tolerances.
+D. have parts that still have ductile inner structures.
+
+Question ID: 2021032
+
+
+Which of the following formulas represents the axial stress?
+
+\begin{enumerate}
+    \item[A.] $\sigma = \frac{P}{A}$
+    \item[B.] $\sigma = \frac{P}{L}$
+    \item[C.] $\sigma = \frac{A}{P}$
+    \item[D.] $\sigma = \frac{L}{P}$
+\end{enumerate}
+
+Question ID: 20250146
+True or False: Shear stress is highest at the surface of a beam under transverse loading.
+OA. True
+OB. False
+
+Question ID: 20251014
+What is the maximum allowable torsional stress for a hard-drawn wire spring (ASTM A227) with a wire diameter of 0.1 in, using the cold-drawn carbon steel rule for shear stress?
+A. 85.4 ksi
+B. 97.7 ksi
+OC. 112.5 ksi
+D. 126.3 ksi
+
+Question ID: 20251015
+A slider moves along a straight guide. Its velocity is v(t) = 3t² - 12t + 9 (unit/sec). Determine the net displacement of the slider from t = 0 to t = 3 sec.
+
+**Fill in the blank problem** - needs to be implemented
+
+Question ID: 20251041
+True or False: Brazing creates a bond by melting the base materials together.
+OA. True
+OB. False
+
+Question ID: 20251051
+Which type of fastener is commonly used to create a permanent mechanical joint in thin sheet metal assemblies?
+O A. Rivets
+OB. Snap rings
+OC. Cotter pins
+OD. Set screws
+
+Question ID: 20251056
+True or False: In combined loading, the total stress at any point can be found by summing the individual stresses from each loading condition.
+OA. True
+OB. False
+
+Question ID: 20251063
+True or False: Chemical bonds are often used in place of mechanical fasteners in lightweight applications.
+OA. True
+OB. False
+
+Question ID: 20251158
+True or False: The material selection for pressurized vessels is based primarily on strength and corrosion resistance.
+OA. True
+OB. False
+
+Question ID: 20251159
+True or False: Pneumatic actuators are generally used in applications that require high force output.
+OA. True
+OB. False
+
+Question ID: 20251160
+True or False: A truss is typically less efficient than a solid beam in handling a given load.
+OA. True
+OB. False
+
+Question ID: 20251199
+What is the main purpose of a pressurized vessel in a mechanical system?
+OA. To safely contain gases or liquids under high pressure
+OB. To improve the aesthetic appearance of the piping system
+OC. To increase the temperature of fluids without using external heat
+OD. To act as a structural support for rotating machinery
+
+Question ID: 20251201
+A hydraulic cylinder has a piston with a 1-in radius. If 400 psi is applied to the piston via the hydraulic fluid, what force is exerted on the cylinder to extend it?
+O A. 458 lb
+OB. 689 lb
+O C. 1,257 lb
+OD. 1,363 lb
+
+Question ID: 20251205
+Real-world problems are often complex and can incorporate varying fields of engineering and expertise. Passenger safety during a car crash is a problem for which it is difficult to predict strengths and weaknesses. What is one method typically used more than others for taking a problem and
+breaking it down into smaller, less complex, computable elements to help solve the overall problem?
+OA. FEA (finite element analysis)
+B. Crash tests with visual data
+C. Kirchoff theory
+D. Nondestructive testing
+
+Question ID: 20251208
+See the following excerpt from OSHA Safety and Health Regulations for Construction 1926 Subpart L App4 Scaffold Specifications:
+"1926 Subpart L App A(1)(d) Guardrails shall be as follows:
+1926 Subpart L App A(1)(d)(i)
+Toprails shall be equivalent in strength to 2-inch by 4-inch lumber; or
+1½ inch x 1½ inch structural angle iron; or
+1 inch.070 inch wall steel tubing; or 1.990 inch.058 inch wall aluminum tubing.
+1926 Subpart L App A(1)(d)(ii)
+Midrails shall be equivalent in strength to 1 inch by 6 inch lumber; or
+1½ inch 14 inch x 1½ inch structural angle iron; or
+1 inch x .070 inch wall steel tubing; or
+1.990-inch x 0.058-inch wall aluminum tubing.
+1926 Subpart LAppA(1)(d)(iii)
+Toeboards shall be equivalent in strength to 1 inch by 4 inch lumber; or
+1½ inch x 1½ inch structural angle iron; or
+1 inch.070 inch wall steel tubing; or
+1.990 inch x .058 inch wall aluminum tubing.
+1926 Subpart L App A(1)(d)(iv)
+Posts shall be equivalent in strength to 2-inch by 4-inch lumber; or
+1½ inch x 1½ inch x 1½ structural angle iron; or
+linch x .070 inch wall steel tubing; or
+1.990-inch x 0.058-inch wall aluminum tubing.
+1926 Subpart L App A(1)(d)(v)
+Distance between posts shall not exceed 8 feet.
+1926 Subpart L App A(1)(e)
+Overhead protection shall consist of 2 inch nominal planking laid tight, or 4-inch plywood.
+1926 Subpart L App A(1)(f)
+Screen installed between toeboards and midrails or toprails shall consist of No. 18 gauge U.S. Standard wire one inch mesh."
+A 1-1/4 in x 1-1/4 in x 2/8 in structural angle iron compliant for use as a guardrail material for use as top rails, midrails, and toeboards?
+A. True
+OB. False
+
+Question ID: 91706071
+A helical compression spring has a mean diameter of 0.394 inches. The spring is made from ASTM 228 music wire. The spring has a spring index, C = 7 The design requires a 2.25 factor of safety when a 600-lbf load is imparted on the spring. Is the spring sufficient for the task? Yes or no?
+OA. Yes
+OB. No
+

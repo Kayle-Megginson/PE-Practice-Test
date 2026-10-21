@@ -1,0 +1,41 @@
+Question ID: 1701012
+A factory has 25 samples taken of a cement-making process. Each sample had 9 items in it. The sum of the sample means is 125.48 lb, and the sum of the sample ranges is 8.21 lb. Which of the following lists the UCL and LCL of the average chart?
+Ο Α. 5.13; 4.91
+ΟΒ. 13.23; 3.19
+OC. 133.69; 117.27
+OD. 130.50; 120.46
+
+Question ID: 1703006
+Consider that 304 stainless steel with an a+Fe3C (carbide) composition is manufactured with 0.018% carbon by weight. If a sample of the 304SS is heated until it melts, and is then air-cooled, at what temperature does a-Fe (ferrite) begin to form?
+A. 1333°F
+OB. 1610°F
+OC. 1674°F
+OD. 2640°F
+
+Question ID: 1703026
+Which of these mechanical properties can be directly measured by a torsion test? Select all that apply.
+☐ Bulk modulus
+☐ Elastic modulus
+☐ Poisson's ratio
+☐ Shear modulus
+☐ Tensile strength
+☐ Shear strength
+
+Question ID: 1708001
+A 100-in long composite I-beam is subject to uniform pressure of 250 psi on its top face and is fixed on both ends. A stress analyst needs to conduct deflection analysis in finite element analysis (FEA) software. The analyst took advantage of symmetrical boundary conditions on a quarter symmetric model of the I-beam. The analyst decided to
+model the beam using 3D brick (solid) elements rather than shell elements. What boundary and loading conditions accurately represent the quarter symmetric I-beam?
+
+insert problem 4 picture here
+
+A. Face 1: UI, UR2, UR * 3 = 0 ; Face 2: U3, URI, UR * 2 = 0 ; Face 3: U1, U2, U3, URI, UR2, UR * 3 = 0 pressure: 62.5 psi
+B. Face 1 / U * 1 = 0 Face 2 / U * 3 = 0 Face 3: U1, U2, U * 3 = 0 ; pressure: 62.5 psi
+OC. Face 1: U1, UR2. UR * 3 = 0 ; Face 2: U3, URI, UR * 2 = 0; 1 Face 3: U1, U2, U3, UR1, UR2, UR * 3 = 0 ; pressure: 250 psi
+D. Face 1 / U * 1 = 0 Face 2: U3=0; Face 3: U1, U2, U * 3 = 0 ; pressure: 250 psi
+
+Question ID: 1708011
+Which of the following non-destructive evaluation (NDE) methods best fits the following description:
+Mechanical vibrations are induced via a piezoelectric transducer. The transducer needs to be in contact with the workpiece (an adhesion gel may be applied on the surface prior to contact.) The mechanical vibrations propagate waves through the workpiece. The waves are then either reflected or scattered due to internal defects. The results can be interpreted and shown on a screen or a meter.
+A. Magnetic particle testing (MPT)
+OB. Eddy-current testing (ECT)
+OC. Ultrasonic testing (UT)
+D. Liquid penetrant testing (PT)

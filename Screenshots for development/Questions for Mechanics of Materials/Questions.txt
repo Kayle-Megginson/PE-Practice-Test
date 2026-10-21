@@ -1,0 +1,37 @@
+Question ID: 1702035
+A torque is applied to a stepped steel shaft of length 4 m. If one section of the shaft is 1 m long with diameter 5 cm and the remaining length has a diameter of 10 cm, what is the angle of twist across the length of the shaft under a 2 kN-m loading?
+OA. 0.05 degrees
+B. 0.2 degrees
+OC. 2.8 degrees
+OD. 7.1 degrees
+
+Question ID: 1703002
+Determine the unknown material in which the cube of material, seen below, is the result of experiencing a shear stress of 1.86 Mpsi (where 5a = 6b = 2c ) .
+
+insert question 2 photo here
+
+OA. Steel
+B. Aluminum
+OC. Brass
+OD. Copper
+
+Question ID: 1703020
+A I in diameter 6061 aluminum rod that is 36" long is placed between two supports, as shown in Figure 1. There is no gap between the rod ends and the support. The rod is at an ambient temperature of 65°F. What value is the closest to the temperature that the rod would need to be heated to for it to yield in compression? Assume that the rod is supported to prevent buckling.
+
+Insert Figure 1 here
+Figure 1
+
+OA 100°F
+OB. 200°F
+OC. 350°F
+OD. 500°F
+
+Question ID: 20251045
+True or False: A material with a low modulus of elasticity will experience more elongation under the same axial load than a material with a high modulus.
+A. True
+OB. False
+
+Question ID: 20251054
+True or False: The bending stress in a beam is directly proportional to the distance from the neutral axis.
+A. True
+B. False

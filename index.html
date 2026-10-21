@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PE Practice Tests</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .exam-workspace { display:grid; grid-template-columns:minmax(360px, 1fr) minmax(420px, 1fr); gap:12px; min-height:calc(100vh - 185px); }
+    .reference-pane { border:1px solid #d8dfe4; background:#f5f7f8; display:flex; flex-direction:column; min-height:620px; overflow:hidden; }
+    .reference-heading { height:38px; padding:0 12px; display:flex; align-items:center; justify-content:space-between; background:#eef2f5; border-bottom:1px solid #d7dde2; font-family:Arial,sans-serif; font-size:13px; }
+    #change-handbook { border:0; background:#398dcc; color:white; border-radius:3px; padding:5px 9px; cursor:pointer; font:inherit; }
+    .reference-empty { margin:auto; max-width:310px; text-align:center; padding:25px; color:#5e6a72; line-height:1.5; font-family:Arial,sans-serif; font-size:14px; }
+    #handbook-viewer { border:0; flex:1; width:100%; min-height:580px; background:white; }
+    .exam-workspace .question-card { margin:0; min-height:620px; }
+    @media (max-width:900px) { .exam-workspace { grid-template-columns:1fr; } .reference-pane { min-height:440px; } #handbook-viewer { min-height:400px; } }
+    .solution-card { border:1px solid #ddd; box-shadow:none; }
+    .solution-card > header { display:flex; align-items:center; min-height:46px; padding:10px 14px; background:#f6f6f6; font-size:14px; }
+    .solution-card .report-back { margin-left:auto; border:0; background:transparent; color:#3f93d0; cursor:pointer; font:inherit; }
+    .solution-question { padding:15px; border-bottom:1px solid #ececec; }
+    .solution-question p { margin:0 0 12px; font-size:15px; }
+    .solution-question ol { margin:0; padding-left:32px; }
+    .solution-answer { padding:10px 15px; background:#f4f4f4; }
+    .solution-answer p { margin:5px 0; font-size:14px; }
+    .solution-body { min-height:290px; padding:16px 15px 28px; }
+    .solution-body h2, .solution-body h3 { font-size:14px; margin:0 0 14px; }
+    .solution-body h3 { margin-top:24px; margin-bottom:7px; }
+    .solution-body p { max-width:1800px; margin:0 0 16px; font-size:14px; line-height:1.55; white-space:pre-line; }
+    .solution-body .inline-formula { display:block; max-width:100%; width:max-content; max-height:180px; margin:10px 0 14px; object-fit:contain; object-position:left top; }
+    .solution-body .solution-diagram { display:block; max-width:min(720px, 100%); max-height:480px; margin:12px 0 18px; object-fit:contain; object-position:left top; }
+    .solution-body .math-line { margin:13px 0 18px; font-family:"Times New Roman", Georgia, serif; font-size:17px; line-height:1.65; white-space:pre-line; }
+    .solution-body .math-line math { display:block; font-size:1.08em; }
+    .solution-body .math-line .fraction { display:inline-flex; flex-direction:column; vertical-align:middle; text-align:center; line-height:1.05; margin:0 2px; }
+    .solution-body .math-line .fraction > :first-child { border-bottom:1px solid currentColor; padding:0 3px 2px; }
+    .solution-body .math-line .fraction > :last-child { padding:2px 3px 0; }
+    .solution-body .math-line .radic-content { display:inline-block; border-top:1px solid currentColor; padding:0 3px 0 2px; vertical-align:middle; }
+    .solution-formulas { display:flex; flex-direction:column; gap:10px; margin:12px 0; }
+    .solution-formulas img { display:block; max-width:100%; width:max-content; max-height:180px; object-fit:contain; object-position:left top; }
+    .confidence-box { width:370px; min-height:92px; padding:12px 12px 8px; background:#f5f5f5; border-top:1px solid #ddd; border-right:1px solid #ddd; font-size:13px; }
+    .confidence-box p { margin:0 0 13px; line-height:1.35; }
+    .confidence-box > div:last-child { display:flex; justify-content:space-between; font-size:12px; }
+    .confidence-track { height:5px; background:#d9d9d9; margin:0 14px 8px; position:relative; }
+    .confidence-track i, .confidence-track b { position:absolute; top:50%; width:18px; height:18px; border-radius:50%; transform:translate(-50%,-50%); background:#82bae5; }
+    .confidence-track i:first-child { left:0; } .confidence-track b { left:50%; background:#4095d1; } .confidence-track i:last-child { left:100%; background:#f5f5f5; }
+    .solution-footer { height:38px; display:flex; justify-content:space-between; align-items:center; padding:0 10px; background:#0077ad; color:white; font-size:14px; }
+    .solution-footer div { height:100%; display:flex; }
+    .solution-footer button { border:0; background:transparent; color:white; padding:0 12px; cursor:pointer; font:inherit; }
+    .solution-footer div button { border-left:1px solid #92c8e4; }
+    .solution-footer div button:disabled { opacity:.45; cursor:default; }
+    @media (max-width:600px) { .confidence-box { width:100%; } .solution-card > header { font-size:12px; } }
+  </style>
+</head>
+<body>
+  <main class="app-shell">
+    <header class="app-header">
+      <div class="brand"><span class="help-icon">?</span><span>Exam Simulator</span></div>
+      <button class="icon-button" id="fullscreen-button" aria-label="Toggle full screen">⛶</button>
+    </header>
+
+    <section id="menu-view" class="view">
+      <div class="exam-list" aria-label="Available practice tests">
+        <div class="list-heading"><span>Exam Simulator Name</span><span>Description</span><span>Reference Material</span><span>Take Test</span><span></span></div>
+        <div id="exam-rows"></div>
+      </div>
+      <input id="handbook-upload" type="file" accept="application/pdf,.pdf" class="hidden" />
+    </section>
+
+    <section id="exam-view" class="view hidden">
+      <div class="exam-toolbar">
+        <strong id="exam-title"></strong>
+        <div class="exam-status"><span>◷ Time Remaining <span id="timer">00:20:00</span></span><button id="review-button" class="review-trigger">☷ <span id="current-number">1</span> of <span id="total-number">3</span></button></div>
+      </div>
+      <div class="utility-bar"><button id="scratch-button">▧ Scratch Pad</button><button id="flag-button">⚐ <span id="flag-label">Flag for Review</span></button></div>
+      <div class="exam-workspace">
+        <aside class="reference-pane">
+          <div class="reference-heading"><strong>Reference Handbook</strong><button id="change-handbook">Change PDF</button></div>
+          <div id="reference-empty" class="reference-empty">Upload the PE Reference Handbook from the test menu to use it here.</div>
+          <iframe id="handbook-viewer" class="hidden" title="Uploaded PE Reference Handbook"></iframe>
+        </aside>
+        <article class="question-card">
+          <div class="question-id">Question ID: <span id="question-id"></span></div>
+          <div class="question-content">
+            <p id="question-text"></p>
+            <form id="answers" class="answers"></form>
+          </div>
+        </article>
+      </div>
+      <footer class="exam-footer"><button id="end-exam">↪ End Exam</button><div><button id="previous">← Previous</button><button id="next">Next →</button></div></footer>
+    </section>
+
+    <section id="results-view" class="view hidden">
+      <div class="results-heading"><strong id="results-title"></strong><strong>Test Result: <span id="score-label">0%</span></strong></div>
+      <div class="metrics-grid">
+        <section class="metric-card"><h2>Question Metrics</h2><span>Total Questions: <strong id="result-total"></strong></span><div class="wide-bar"><span id="correct-bar"></span></div><div class="mini-metrics"><span>Correct: <b id="correct-count"></b></span><span>Incorrect: <b id="incorrect-count"></b></span><span>Unattempted: <b id="unattempted-count"></b></span></div></section>
+        <section class="metric-card score-card"><h2>Score</h2><div class="score-ring"><span id="score-ring-label">0%</span></div><a href="#" id="restart-link">↻ Start again</a></section>
+        <section class="metric-card"><h2>Question Complexity Metrics</h2><div class="complexity-row"><span>Easy</span><i></i><b id="easy-score">0%</b></div><div class="complexity-row"><span>Medium</span><i></i><b id="medium-score">0%</b></div></section>
+      </div>
+      <section class="answers-summary"><h2>Answers</h2><p><span class="correct-key">✓</span> Answered Correct <span class="incorrect-key">×</span> Answered Incorrect <span class="not-attempted-key">−</span> Not Attempted</p><h2>Questions</h2><div class="summary-table" id="summary-table"></div></section>
+    </section>
+
+    <section id="solution-view" class="view hidden">
+      <div class="results-heading"><strong id="solution-title">Basic Engineering Practice Quiz</strong><strong id="solution-score">Test Result</strong></div>
+      <article class="solution-card">
+        <header><span id="solution-status"></span><strong><span id="solution-number"></span>) Question ID: <span id="solution-id"></span></strong><button id="back-to-results" class="report-back">← Back to Reports page</button></header>
+        <div class="solution-question"><p id="solution-text"></p><img id="solution-image" class="hidden" alt="Question reference image" /><ol id="solution-choices" type="A"></ol></div>
+        <div class="solution-answer"><p>Your Option: <strong id="chosen-option"></strong></p><p>Correct Option: <strong id="correct-option"></strong></p></div>
+        <div class="solution-body"><h2>Solution:</h2><div id="solution-explanation"></div><div id="solution-formulas" class="solution-formulas"></div><h3>References:</h3><p id="solution-reference"></p></div>
+        <div class="confidence-box"><p>What is your confidence level that the answer provided is correct?</p><div class="confidence-track"><i></i><b></b><i></i></div><div><span>Low</span><span>Medium</span><span>High</span></div></div>
+        <footer class="solution-footer"><button id="close-solution">↪ Close</button><div><button id="solution-previous">← Previous</button><button id="solution-next">Next →</button></div></footer>
+      </article>
+    </section>
+  </main>
+
+  <div id="scratch-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="scratch-title"><div class="modal-panel scratch-panel"><button class="close-modal" data-close="scratch-modal">×</button><h2 id="scratch-title">Scratch Pad</h2><textarea id="scratch-notes" placeholder="Use this space for notes and calculations."></textarea></div></div>
+  <div id="review-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="review-title"><div class="modal-panel"><button class="close-modal" data-close="review-modal">×</button><h2 id="review-title">Review Questions</h2><div id="review-scroll" class="review-scroll" tabindex="0" aria-label="Review questions list"><div class="review-table" id="review-table"></div></div><div class="modal-actions"><button class="danger" id="submit-exam">Submit</button><button id="review-all">Review All</button><button id="review-flagged">Review Flagged</button><button id="review-unanswered">Review Unanswered</button></div></div></div>
+  <div id="submit-modal" class="modal hidden" role="dialog" aria-modal="true"><div class="modal-panel confirm-panel"><h2>Submit exam?</h2><p>You can review unanswered and flagged questions before submitting.</p><div class="modal-actions"><button class="danger" id="confirm-submit">Submit Exam</button><button data-close="submit-modal">Cancel</button></div></div></div>
+  <script src="script.js"></script>
+</body>
+</html>

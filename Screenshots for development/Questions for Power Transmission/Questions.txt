@@ -1,0 +1,40 @@
+Question ID: 1701037
+What is the synchronous speed of a 4-pole, 230-V, 1\emptyset, 60-Hz electric motor?
+A. 3,600 rpm
+OB. 2,400 rpm
+OC. 1,800 rpm
+OD. 1,200 rpm
+
+Question ID: 1706007
+Which of the following options cannot be used to calculate the velocity ratio (VR) for a pair of gears?
+OA. P_pinion/P_gear
+OB. r_gear/r_pinion
+OC. ω_pinion/w_gear
+OD. n_pinion/n_gear
+
+Question ID: 1706013
+A belt drive is used to power a mechanical component on a tractor. If the flat urethane belt slips in its typical application, which of the following would NOT be a strategy to address this?
+OA. Switch to timing belt configuration
+B. Reconfigure to increase angle of wrap
+OC. Switch to a leather belt
+OD. Include a belt tensioner
+
+Question ID: 1706022
+A gear set contains a spur pinion with the following properties:
+d = 6 in
+varphi = 20 deg
+If a torque of 2,500 in-lb is applied to the spur pinion, determine the total force on the spur gear tooth.
+A. 833 lb
+OB. 416 lb
+OC. 886 lb
+OD. 303 lb
+
+Question ID: 1706086
+All gears in the same gear train mesh must have the same
+Select all that apply. (a-f are actually boxes you can check)
+A. diameter
+B. pitch-line velocity
+C. root fillet radius
+D. diametral pitch
+E. module
+F. center-to-center distance

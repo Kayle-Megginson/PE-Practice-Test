@@ -1,0 +1,35 @@
+Question ID: 1705019
+Four springs in parallel, each having a constant of 800 lb/in, are used to support a motor weighing 400 lb. The motor can only move in the vertical direction. The speed in RPM at which resonance will occur is most nearly:
+Ο Α. 153
+OB. 530
+OC. 56
+OD. 94
+
+
+Question ID: 1706032
+The allowable normal stress (in psi) of A229 oil-tempered wire with a diameter of 0.125 inches is most nearly:
+OA. 169,157 psi.
+OB. 216,868 psi.
+OC. 2,135 psi.
+OD. 97,590 psi.
+
+Question ID: 1706077
+A cylindrical pressure vessel has an inner radius of 8 in, an outer radius of 9 in, and a length of 40 in. If the cylinder is pressurized to 4,800 psi and the yield stress of the material is 40,000 psi, find the normal stress and circumferential stress at the inner surface of the cylinder.
+Ο Α. sigma_{r} = 4, 800psi ; sigma_{theta} = - 4094psi
+Ο Β. sigma r =-4,800 psi; sigma_{theta} = 40, 941psi
+Ο C. sigma_{r} = 2, 700psi; sigma_{theta} = - 2084psi
+Ο D. sigma_{r} =-2,700 psi; sigma_{theta} = 2084psi
+
+Question ID: 20251030
+A mechanical system behaves like a spring-mass system and has a static deflection \delta_{st} of 0.05 ft under its own weight. Assuming no damping, what is the natural frequency of vibration of the system?
+A. 1.42 Hz
+OB. 2.25 Hz
+OC. 4.04 Hz
+OD. 5.47 Hz
+
+Question ID: 20251202
+What can be used to direct the flow of fluids and gases in pipes in an industrial setting?
+OA. Control valve
+OB. Pressure-reducing valve
+OC. Ball valve
+OD. Socket valve
