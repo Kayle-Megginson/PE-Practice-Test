@@ -10,3 +10,6 @@
 #review-modal .review-scroll { min-height:0; max-height:min(66vh,720px); overflow-y:auto; overscroll-behavior:contain; scrollbar-gutter:stable; }
 #review-modal .review-header { position:sticky; top:0; z-index:1; }
 #review-modal .modal-actions { flex:0 0 auto; }
+
+/* The fixed exam navigation bar must never cover the last answer choice. */
+#exam-view { padding-bottom:70px; }
